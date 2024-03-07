@@ -38,3 +38,6 @@ body {
   li a:hover {
     color: #ecf0f1;
   }
+  span{
+    font-size:19px
+  }
