@@ -41,3 +41,9 @@ body {
   span{
     font-size:19px
   }
+  img {
+    width: 280px; 
+    height: 200px; 
+    margin: 5px; 
+    object-fit: cover; 
+  }
