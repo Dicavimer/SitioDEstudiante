@@ -1,81 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
 </head>
+
 <body>
-    <h1>Sitio web del estudiante</h1>
-    <nav>
-        <div class="logo">
-             <span style='font-size:19px;'>¡Hola, Diana Carolina Vidal Merlano! &#128075;</span>
+    <nav class="navbar navbar-expand-lg navbar-blue bg-blue">
+            <div class="logo">
+            <span style='font-size:19px;'>¡Hola, Diana Carolina Vidal Merlano! &#128075;</span>
+            <p>Estudiante de noveno semestre de ingenieria de sistemas</p>
         </div>
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="https://animaleshoy.net/wp-content/uploads/2015/02/gatito.jpg" target="_blank">Observa</a></li>
-          <li><a href="https://1.bp.blogspot.com/-lzqJiWPGyIQ/UVjApgiaghI/AAAAAAAAAOI/qX7BaJHprek/s1600/no-disponible1.jpg" target="_blank">Salir</a></li>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="https://animaleshoy.net/wp-content/uploads/2015/02/gatito.jpg" target="_blank">Observa</a></li>
+              <li class="nav-item active">
+                <a class="nav-link" href="https://1.bp.blogspot.com/-lzqJiWPGyIQ/UVjApgiaghI/AAAAAAAAAOI/qX7BaJHprek/s1600/no-disponible1.jpg"
+                    target="_blank">Salir</a></li>
         </ul>
-      </nav>
-      <div class="containerinicial">
-        <h2>Informacion del estudiante</h2>
-        <h4>Noveno semestre de ingenieria de sistemas </h4> 
-        <h4>Hobbies: 
+    </div>
+    </nav>
+    <div class="custom-container">
+
+        <h3>Hobbies:</h3>
+            <ul class="ul-hotizontal">
             <li>Leer <span>&#128214;</span></li>
             <li>Congregarse <span>&#9962;</span></li>
             <li>Jugar Voleibol <span>&#127952;</span></li>
             <li>Ir de compras<span>&#128722;</span></li>
             <li>La Música <span>&#127901;</span></li>
             <li>Viajar<span>&#128747;</span></li>
-        </h4> 
+        </ul>
     </div>
-     
-    <div class="card-group">
-        <div class="card">
-          <img  src="https://i2.wp.com/www.cupcakesharmony.com/wp-content/uploads/2020/03/CLOY.png?fit=2240%2C1260&ssl=1" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Aterrizaje de emergencia a tu corazon</h5>
-            <p class="card-text">Drama romántico surcoreano que se centra en la historia de amor entre una rica heredera surcoreana y un oficial militar norcoreano después de que ella accidentalmente aterriza en Corea del Norte debido a una tormenta. 
-                La serie explora los desafíos y las diferencias entre ambos mundos, así como las complejidades de las relaciones interculturales y geopolíticas.</p></p>
+    
+    <div class="custom-container2">
+        <h3>Series favoritas:</h3>
+        </div>
+   
+    <div class="container d-flex">
+        <div class="row">
+            <div class="col-md-4 mb-4 ">
+                <div class="card">
+                <img src="https://i2.wp.com/www.cupcakesharmony.com/wp-content/uploads/2020/03/CLOY.png?fit=2240%2C1260&ssl=1"
+                    class="card-img-top card-img-cover" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Aterrizaje de emergencia a tu corazon</h5>
+                    <p class="card-text">Drama romántico surcoreano sobre el amor entre una mujer surcoreana y un oficial militar norcoreano después de que ella aterriza accidentalmente en Corea del Norte. 
+                        Explora desafíos y diferencias entre ambos mundos, así como complejidades en relaciones interculturales y geopolíticas.</p>
+                    </p>
+                    <p>Actores principales:
+                        <li>Hyun Bin como Ri Jeong Hyeo</li>
+                        <li>Son Ye Jin como Yoon Se Ri</li>
+                    </p>
+                </div>
+                </div>
+            </div>
+
+    
+            <div class="col-md-4 mb-4 ">
+                <div class="card">
+                <img src="https://4.bp.blogspot.com/-lsa-znyVmjE/WVZnYLeX09I/AAAAAAAAKkU/oKRWXTe4Nis8iaE6JO5ot1lZa9eeeUZEQCEwYBhgL/s1600/Alt%2BPoster%2Bfor%2BThe%2BOA%2Bon%2BNetflix.png"
+                    class="card-img-top card-img-cover" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The OA</h5>
+                    <p class="card-text">Serie estadounidense de misterio de misterio y drama con elementos de ciencia
+                        ficcion, sobrenatural y fantasia.
+                        Creada y producida por Brit Marling y Zal Batmanglij. Se estreno en Netflix el 16 de Diciembre
+                        del 2016.</p>
+                    <p>Actores principales:
+                        <li>Brit Marling como Prairie Johnson / The OA</li>
+                        <li>Emory Cohen como Homer Robert</li>
+                        <li>Alice Krige como Nancy Johnson</li>
+                    </p>
+                </div>
+            </div>
+            </div>
+
+        
+            <div class="col-md-4 mb-4 ">
+                <div class="card">
+            <img src="https://1.bp.blogspot.com/-Ar0dU840hTc/XSRC7G8wSeI/AAAAAAAAACY/4CERYhX2-AUEcAlDuoh2j7javgeaOMCIACLcBGAs/s1600/jardindemeteoros.jpg"
+                class="card-img-top card-img-cover" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Jardin de Meteoros</h5>
+                <p class="card-text">Serie de televisión china presentada también en netflix que sigue la historia de una chica común y corriente
+                    que ingresa a la prestigiosa
+                    Universidad de Ying De y se encuentra con un grupo de chicos ricos y poderosos conocidos como F4.
+                    La serie aborda temas como el amor, la amistad, la familia y las luchas sociales.</p>
                 <p>Actores principales:
-                    <li>Hyun Bin como Ri Jeong Hyeo</li>
-                    <li>Son Ye Jin como Yoon Se Ri</li>
-                    <li>Seo Ji Hye como Seo Dan</li>
-                    <li>Kim Jung Hyun como Gu Seung Jun</li>
+                    <li>Shen Yue como Dong Shan Cai</li>
+                    <li>Dylan Wang como Dao Ming Si</li>
                 </p>
-          </div>
-          <div class="card">
-            <img src="https://th.bing.com/th/id/OIP._SJ-ZbEkPXkcXdIoAavR2QHaDt?w=1400&h=700&rs=1&pid=ImgDetMain" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">The OA</h5>
-              <p class="card-text">Serie estadounidense de misterio de misterio y drama con elementos de ciencia ficcion, sobrenatural y fantasia. 
-                  Creada y producida por Brit Marling y Zal Batmanglij. Se estreno en Netflix el 16 de Diciembre del 2016.</p>
-              <p>Actores principales:
-              <li>Brit Marling como Prairie Johnson / The OA</li>
-              <li>Emory Cohen como Homer Robert</li>
-              <li>Alice Krige como Nancy Johnson</li> </p>
             </div>
-          </div>
-          <div class="card">
-            <img src="https://www.justwatch.com/images/backdrop/71185247/s1440/jardin-de-meteoros-meteor-garden" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Jardin de Meteoros</h5>
-              <p class="card-text">Serie de televisión china que se inspira en la famosa serie japonesa "Hana Yori Dango" 
-                  y en la serie de manga del mismo nombre. La trama sigue la historia de una chica común y corriente que ingresa a la prestigiosa
-                   Universidad de Ying De y se encuentra con un grupo de chicos ricos y poderosos conocidos como F4. 
-                   La serie aborda temas como el amor, la amistad, la familia y las luchas sociales.</p>
-              <p>Actores principales:
-                  <li>Shen Yue como Dong Shan Cai</li>
-                  <li>Dylan Wang como Dao Ming Si</li>
-                  <li>Darren Chen como Hua Ze Lei</li>
-                  <li>Connor Leong como Feng Mei Zuo</li>
-                  <li>Caesar Wu como Xi Men Yan</li></p>
-            </div>
-          </div>
         </div>
         </div>
+      </div>
+    </div>
+
 </body>
+
 </html>
