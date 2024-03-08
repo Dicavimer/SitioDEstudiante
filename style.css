@@ -42,5 +42,22 @@ body {
   span{
     font-size:19px
   }
-
+  .custom-container { 
+    height: 100px; 
+    color: #081c74;
+    width: 100%;  
+    margin: auto;   
+    padding: 20px; 
+    font-style: italic;
+    font-size: 15px;
+  }
+  
+  .custom-container2{ 
+    height: 80px; 
+    color: #081c74;
+    width: 100%;   
+    padding: 20px; 
+    font-style: italic;
+    font-size: 15px;
+  }
 
